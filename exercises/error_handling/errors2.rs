@@ -19,7 +19,6 @@
 // I AM NOT DONE
 
 use std::num::ParseIntError;
-
 pub fn total_cost(item_quantity: &str) -> Result<i32, ParseIntError> {
     let processing_fee = 1;
     let cost_per_item = 5;
